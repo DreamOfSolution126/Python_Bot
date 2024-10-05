@@ -7,8 +7,8 @@ import time
 
 app = Flask(__name__)
 
-MEXC_API_KEY = 'mx0vglOnYNH4ePuVvR'
-MEXC_API_SECRET = '3a1fa8c0cc7b4a539aa46cf6bad75f53'
+MEXC_API_KEY = 'mx0vgldSW9oPlalfBL'
+MEXC_API_SECRET = 'bf637c1d041540968d9c1dc4c397bcb5'
 BASE_URL = 'https://api.mexc.com' 
 
 spot = Spot(api_key=MEXC_API_KEY, api_secret=MEXC_API_SECRET)
